@@ -4,14 +4,13 @@
 using namespace std;
 
 static const char alpha[] =
-"0123456789"
-"!@#$%&*^"
-"ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-"abcdefghijklmnopqrstuvwxyz";
+    "0123456789"
+    "!@#$%&*^"
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    "abcdefghijklmnopqrstuvwxyz";
 int size = sizeof(alpha) -1;
 
 int main(){
-
     int tamanho;
     cout << "Digite o tamanho da sua senha: ";
     cin >> tamanho; 
